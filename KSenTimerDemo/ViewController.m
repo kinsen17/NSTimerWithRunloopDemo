@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-     NSLog(@"线程的runloop：%@",[NSRunLoop currentRunLoop]);
+     NSLog(@"线程的runloop：%@",[NSRunLoop mainRunLoop]);
     
     // Do any additional setup after loading the view, typically from a nib.
     
